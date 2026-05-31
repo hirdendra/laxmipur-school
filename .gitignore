@@ -1,0 +1,17 @@
+# Ignore OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore editor/IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore downloaded screenshots (keep HTML only)
+*/screenshot.png
+
+# Node/npm (if ever added)
+node_modules/
+npm-debug.log*

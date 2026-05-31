@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Laxmipur English Secondary School | Rooted in Tokha</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&amp;family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "inverse-primary": "#93d5aa",
+                    "primary-fixed": "#aff2c4",
+                    "surface-dim": "#ded9d4",
+                    "secondary": "#895100",
+                    "on-tertiary-fixed": "#29170c",
+                    "on-primary-fixed-variant": "#0b5131",
+                    "surface-container-lowest": "#ffffff",
+                    "inverse-surface": "#32302d",
+                    "primary-container": "#1a5c3a",
+                    "on-secondary-fixed": "#2c1700",
+                    "primary": "#004326",
+                    "surface-container": "#f3ede8",
+                    "outline-variant": "#c0c9bf",
+                    "on-surface": "#1d1b19",
+                    "secondary-fixed-dim": "#ffb86b",
+                    "inverse-on-surface": "#f5f0eb",
+                    "on-tertiary-fixed-variant": "#594234",
+                    "on-secondary-fixed-variant": "#683d00",
+                    "secondary-fixed": "#ffdcbc",
+                    "surface-container-low": "#f8f3ee",
+                    "surface-container-highest": "#e7e1dd",
+                    "background": "#fef8f3",
+                    "on-background": "#1d1b19",
+                    "surface-bright": "#fef8f3",
+                    "outline": "#707971",
+                    "on-primary-container": "#91d2a7",
+                    "error": "#ba1a1a",
+                    "on-secondary": "#ffffff",
+                    "on-error-container": "#93000a",
+                    "on-secondary-container": "#6b3f00",
+                    "tertiary": "#4b3528",
+                    "on-tertiary-container": "#dfbdab",
+                    "error-container": "#ffdad6",
+                    "on-primary-fixed": "#002110",
+                    "secondary-container": "#ffa535",
+                    "on-tertiary": "#ffffff",
+                    "on-primary": "#ffffff",
+                    "surface": "#fef8f3",
+                    "surface-container-high": "#ede7e2",
+                    "surface-variant": "#e7e1dd",
+                    "tertiary-container": "#644c3e",
+                    "primary-fixed-dim": "#93d5aa",
+                    "surface-tint": "#2a6a47",
+                    "tertiary-fixed": "#ffdbc9",
+                    "on-error": "#ffffff",
+                    "on-surface-variant": "#404942",
+                    "tertiary-fixed-dim": "#e1c0ae"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "container-max": "1280px",
+                    "base": "8px",
+                    "lg": "48px",
+                    "sm": "12px",
+                    "md": "24px",
+                    "xs": "4px",
+                    "xl": "80px",
+                    "gutter": "24px"
+            },
+            "fontFamily": {
+                    "headline-lg": ["Playfair Display"],
+                    "label-md": ["Inter"],
+                    "body-lg": ["Inter"],
+                    "display-lg": ["Playfair Display"],
+                    "body-md": ["Inter"],
+                    "display-lg-mobile": ["Playfair Display"],
+                    "headline-md": ["Playfair Display"],
+                    "caption": ["Inter"]
+            },
+            "fontSize": {
+                    "headline-lg": ["32px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                    "label-md": ["14px", {"lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                    "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "display-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "display-lg-mobile": ["36px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                    "headline-md": ["24px", {"lineHeight": "1.4", "fontWeight": "600"}],
+                    "caption": ["12px", {"lineHeight": "1.4", "fontWeight": "400"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .tikijhya-border {
+            position: relative;
+            padding: 12px;
+            background: #004326;
+            clip-path: polygon(
+                0% 0%, 100% 0%, 100% 100%, 0% 100%,
+                0% 90%, 5% 90%, 5% 10%, 0% 10%,
+                0% 0%
+            );
+        }
+        .wood-frame {
+            border: 2px solid #32302d;
+            box-shadow: 4px 4px 0px #32302d;
+        }
+        .lokta-bg {
+            background-image: radial-gradient(#ede7e2 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+        .ornament-diamond {
+            width: 8px;
+            height: 8px;
+            background: #895100;
+            transform: rotate(45deg);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md selection:bg-secondary-container">
+<!-- TopNavBar -->
+<nav class="bg-surface-container-low sticky top-0 z-50 border-b-2 border-primary">
+<div class="flex justify-between items-center w-full px-base lg:px-lg py-sm max-w-container-max mx-auto">
+<div class="flex items-center gap-sm">
+<img alt="Laxmipur Logo" class="h-12 w-12" src="data:image/png;base64,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"/>
+<span class="text-headline-md font-headline-md font-bold text-primary hidden md:block">Laxmipur English Secondary School</span>
+<span class="text-headline-md font-headline-md font-bold text-primary md:hidden">LESS</span>
+</div>
+<div class="hidden lg:flex items-center gap-md">
+<a class="text-secondary font-bold border-b-2 border-secondary text-label-md font-label-md hover:bg-surface-container-high transition-colors duration-200" href="#">Home</a>
+<a class="text-on-surface-variant hover:text-primary text-label-md font-label-md hover:bg-surface-container-high transition-colors duration-200" href="#">About</a>
+<a class="text-on-surface-variant hover:text-primary text-label-md font-label-md hover:bg-surface-container-high transition-colors duration-200" href="#">Academics</a>
+<a class="text-on-surface-variant hover:text-primary text-label-md font-label-md hover:bg-surface-container-high transition-colors duration-200" href="#">Activities</a>
+<a class="text-on-surface-variant hover:text-primary text-label-md font-label-md hover:bg-surface-container-high transition-colors duration-200" href="#">Admissions</a>
+<a class="text-on-surface-variant hover:text-primary text-label-md font-label-md hover:bg-surface-container-high transition-colors duration-200" href="#">Contact</a>
+</div>
+<button class="bg-primary text-on-primary px-md py-sm font-label-md text-label-md hover:bg-primary-container active:scale-95 transition-all">
+                Apply Now
+            </button>
+</div>
+</nav>
+<!-- Hero Section -->
+<header class="relative overflow-hidden pt-xl pb-xl lg:pt-24 lg:pb-32 px-base lg:px-lg max-w-container-max mx-auto">
+<div class="grid lg:grid-cols-2 gap-lg items-center">
+<div class="space-y-md">
+<h1 class="text-display-lg-mobile md:text-display-lg font-display-lg text-primary leading-tight">
+                    Rooted in Tokha. <br/>
+<span class="text-secondary italic">Raising Futures</span> Since 1985.
+                </h1>
+<p class="text-body-lg text-on-surface-variant max-w-xl">
+                    Providing holistic English-medium education from Play Group to Grade 10, in the heart of Chandeshowri, Tokha. We blend traditional values with modern academic excellence.
+                </p>
+<div class="flex flex-wrap gap-md pt-base">
+<button class="bg-secondary-container text-on-secondary-container px-lg py-md text-label-md font-label-md font-bold wood-frame hover:translate-x-1 hover:translate-y-1 transition-transform">
+                        Explore Admissions
+                    </button>
+<button class="border-2 border-primary text-primary px-lg py-md text-label-md font-label-md font-bold hover:bg-primary hover:text-on-primary transition-all">
+                        Learn About Us
+                    </button>
+</div>
+</div>
+<div class="relative">
+<div class="tikijhya-border wood-frame aspect-square overflow-hidden bg-primary p-4">
+<div class="grid grid-cols-2 grid-rows-2 gap-xs h-full w-full">
+<img class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" data-alt="A group of smiling Nepali school students in their formal forest green uniforms standing together in a sunlit courtyard of a traditional brick building in Tokha. The lighting is warm and golden, highlighting the textures of the ancient wood carvings and the joy on the children's faces. Academic excellence meets cultural heritage." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCwJ2ZjtCHdYRZ4P24DdMT25Ea5jeLnJn3kGoyvDy50noLIwWPH3at_oDGtXbepqphtCA0nrvfBLsMcenb-43Urcmdo04IxoH4-uxfU9sX_7W1FvE_sVvcU1gSOqeehdh5flKeePuTAuR2pg1CVn4pjvLWagEEDA4dkN26XMX712Ly5ZFBeZFRDj9sxeUmccqtNeDOTGOhYxvTm1aVJLGMEbwCQ7PNKiS4F-MMWrs8kzAy9b6E7i2eIrMn9YY2WOBvv0ocHIc0Yrh22"/>
+<img class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" data-alt="Close up of a classic school library shelf filled with textbooks and historical literature. The scene is lit with soft morning light filtering through a lattice window, casting geometric shadows. The aesthetic is scholarly and grounded, reflecting the long history of the institution since 1985." src="https://lh3.googleusercontent.com/aida-public/AB6AXuByvuVJxTyvMGhD8DwL5LzpaYZ_q4AV232nAqaDTVL3wYn4nmMFuNB8SjWXo5q3tt0x8rJMcpKZrOImEDbYDp8PLfUTRAAQ3rdad1si9aEvL6P9fw5FfFtjJBd96G0Z9LOohBSOnfbLVH7a0rARKL6PMsmbe_xv6xIss-DgCflDSgATaly_Wyn58ccJ9VsRahqwlvfXQ_6xx7c7KVPFxBK8vIygGMW713VdStY97Ty6HRUmOVlcl2KdpnAGXkWDllllyGGMI083rb0u"/>
+<img class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" data-alt="A bright, modern classroom interior with wooden desks and student artwork on the walls. Large windows overlook the hills of Kathmandu valley. The atmosphere is quiet, focused, and scholarly, blending traditional architecture with contemporary learning facilities in Tokha." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBb4f0Z10Kwc8tegG8oFAAfEcgHnZELH0hMp8xu0xwjeu7RJ0SQ4-3era3eIg7GZ46qz02upGa69h-AGPwaPVBuRhVEa1nL1zDErWe183Mj2jpJ_Ff0S0fVzBOXP2zI_aFpLRF4GEZCA37acs7KciIng-vzSnTa_ORCc2xJei2ZV7kRfoQiEJ4IwZ1iSNffzc8k8aZ-_K3aeM67s-q751a9zanwBMVFFZpD4Egh_lz0UBcT2LSj7V4ZM5DdqywpyDAaxXdC7C2-SWx4"/>
+<img class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" data-alt="A vibrant student activities session showing children engaged in a science experiment. The lighting is bright and high-key, capturing the excitement of discovery. The setting features subtle wood frame architectural details, maintaining the school's heritage identity." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA31_3zho3woSNZTE8IASXT7hZ6wpDbx1C5BuKTRMpqMW6f6IclkaP75Q04Z9SSd7wyVXFYRxbLOOlFJyvL5mBCeoOLRfwB85lhL7G7_-v00tK7VkGyO_bRwOk5NTE0_xQxp7b_wdwkpG9UJOTC9PztkuujS6t4vWzG7eO08PJidgENptb_13ibOU57nlr6fhrkp2FIbFXtdJA7iIUi4qLHsO3wUN1pfTMopuagve8QFlfvwLyDQCKqWYMGnxaSlic-p2pSMVAoVnJd"/>
+</div>
+</div>
+<!-- Ornamental badge -->
+<div class="absolute -bottom-base -left-base bg-secondary text-on-primary p-md wood-frame hidden md:block">
+<p class="font-headline-md text-headline-md leading-none">39+</p>
+<p class="text-caption font-label-md uppercase tracking-widest">Years of Trust</p>
+</div>
+</div>
+</div>
+</header>
+<!-- Stats Strip -->
+<section class="bg-primary py-lg">
+<div class="max-w-container-max mx-auto px-base lg:px-lg">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-md md:gap-xl text-center">
+<div class="border-l-2 border-secondary-container pl-md">
+<p class="text-secondary-fixed-dim text-headline-lg font-display-lg">Est. 1985</p>
+<p class="text-on-primary-container/70 text-label-md font-label-md">Foundation Year</p>
+</div>
+<div class="border-l-2 border-secondary-container pl-md">
+<p class="text-secondary-fixed-dim text-headline-lg font-display-lg">268+</p>
+<p class="text-on-primary-container/70 text-label-md font-label-md">Students Enrolled</p>
+</div>
+<div class="border-l-2 border-secondary-container pl-md">
+<p class="text-secondary-fixed-dim text-headline-lg font-display-lg">PG – 10</p>
+<p class="text-on-primary-container/70 text-label-md font-label-md">Comprehensive Levels</p>
+</div>
+<div class="border-l-2 border-secondary-container pl-md">
+<p class="text-secondary-fixed-dim text-headline-lg font-display-lg">Tokha, KTM</p>
+<p class="text-on-primary-container/70 text-label-md font-label-md">Our Heritage Location</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Welcome Section -->
+<section class="py-xl px-base lg:px-lg max-w-container-max mx-auto lokta-bg">
+<div class="max-w-4xl mx-auto relative py-lg">
+<span class="material-symbols-outlined text-secondary text-[80px] absolute -top-8 -left-12 opacity-30 select-none">format_quote</span>
+<div class="text-center space-y-md">
+<h2 class="text-label-md font-label-md text-secondary uppercase tracking-widest">Message from the Principal</h2>
+<blockquote class="text-headline-lg font-headline-lg text-primary italic leading-relaxed">
+                    "At Laxmipur, we believe that education is not merely the filling of a bucket, but the lighting of a fire. For nearly four decades, we have nurtured the young minds of Tokha, ensuring they grow with roots of culture and wings of ambition."
+                </blockquote>
+<div class="flex flex-col items-center pt-md">
+<div class="w-16 h-1 bg-secondary mb-base"></div>
+<p class="font-headline-md text-headline-md text-primary">Mr. Ramesh Maharjan</p>
+<p class="text-on-surface-variant font-label-md">Founder &amp; Principal</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Academics Preview -->
+<section class="bg-surface-container py-lg border-y border-outline-variant/30">
+<div class="max-w-container-max mx-auto px-base lg:px-lg">
+<div class="flex flex-col md:flex-row justify-between items-center gap-lg">
+<div class="text-center md:text-left">
+<h3 class="text-headline-md font-headline-md text-primary">A Complete Learning Journey</h3>
+<p class="text-body-md text-on-surface-variant">From the first steps in Play Group to the milestones of Grade 10.</p>
+</div>
+<div class="flex flex-wrap justify-center gap-lg">
+<div class="flex flex-col items-center gap-xs">
+<div class="w-14 h-14 rounded-full bg-white flex items-center justify-center text-primary wood-frame">
+<span class="material-symbols-outlined" data-icon="energy_savings_leaf">energy_savings_leaf</span>
+</div>
+<span class="text-label-md font-label-md">Play Group</span>
+</div>
+<div class="flex flex-col items-center gap-xs">
+<div class="w-14 h-14 rounded-full bg-white flex items-center justify-center text-primary wood-frame">
+<span class="material-symbols-outlined" data-icon="book">book</span>
+</div>
+<span class="text-label-md font-label-md">Primary</span>
+</div>
+<div class="flex flex-col items-center gap-xs">
+<div class="w-14 h-14 rounded-full bg-white flex items-center justify-center text-primary wood-frame">
+<span class="material-symbols-outlined" data-icon="explore">explore</span>
+</div>
+<span class="text-label-md font-label-md">Lower Secondary</span>
+</div>
+<div class="flex flex-col items-center gap-xs">
+<div class="w-14 h-14 rounded-full bg-white flex items-center justify-center text-primary wood-frame">
+<span class="material-symbols-outlined" data-icon="school">school</span>
+</div>
+<span class="text-label-md font-label-md">Secondary (SEE)</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Why Laxmipur? Features Grid -->
+<section class="py-xl px-base lg:px-lg max-w-container-max mx-auto">
+<div class="flex items-center gap-md mb-xl">
+<h2 class="text-display-lg-mobile md:text-headline-lg font-headline-lg text-primary">Why Laxmipur?</h2>
+<div class="flex-grow h-px bg-outline-variant"></div>
+<div class="ornament-diamond"></div>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-md">
+<!-- Card 1 -->
+<div class="bg-surface-container-low p-md border-l-4 border-secondary wood-frame hover:bg-surface-container transition-colors group">
+<span class="material-symbols-outlined text-secondary-container text-4xl mb-sm" data-icon="star">star</span>
+<h4 class="text-headline-md font-headline-md text-primary mb-xs">Academic Excellence</h4>
+<p class="text-body-md text-on-surface-variant">Consistent top performance in SEE and regional examinations since our inception.</p>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-low p-md border-l-4 border-primary wood-frame hover:bg-surface-container transition-colors group">
+<span class="material-symbols-outlined text-secondary-container text-4xl mb-sm" data-icon="domain">domain</span>
+<h4 class="text-headline-md font-headline-md text-primary mb-xs">Heritage Campus</h4>
+<p class="text-body-md text-on-surface-variant">Located in historic Tokha, our facilities blend traditional beauty with modern safety.</p>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container-low p-md border-l-4 border-secondary wood-frame hover:bg-surface-container transition-colors group">
+<span class="material-symbols-outlined text-secondary-container text-4xl mb-sm" data-icon="location_on">location_on</span>
+<h4 class="text-headline-md font-headline-md text-primary mb-xs">Safe Commute</h4>
+<p class="text-body-md text-on-surface-variant">Reliable school bus services across Tokha, Chandeshowri, and neighboring wards.</p>
+</div>
+<!-- Card 4 -->
+<div class="bg-surface-container-low p-md border-l-4 border-primary wood-frame hover:bg-surface-container transition-colors group">
+<span class="material-symbols-outlined text-secondary-container text-4xl mb-sm" data-icon="military_tech">military_tech</span>
+<h4 class="text-headline-md font-headline-md text-primary mb-xs">Character Building</h4>
+<p class="text-body-md text-on-surface-variant">Holistic focus on discipline, respect, and community leadership for every child.</p>
+</div>
+<!-- Card 5 -->
+<div class="bg-surface-container-low p-md border-l-4 border-secondary wood-frame hover:bg-surface-container transition-colors group">
+<span class="material-symbols-outlined text-secondary-container text-4xl mb-sm" data-icon="emoji_events">emoji_events</span>
+<h4 class="text-headline-md font-headline-md text-primary mb-xs">Sports &amp; Arts</h4>
+<p class="text-body-md text-on-surface-variant">Wide range of ECA including traditional dance, football, and martial arts.</p>
+</div>
+<!-- Card 6 -->
+<div class="bg-surface-container-low p-md border-l-4 border-primary wood-frame hover:bg-surface-container transition-colors group">
+<span class="material-symbols-outlined text-secondary-container text-4xl mb-sm" data-icon="favorite">favorite</span>
+<h4 class="text-headline-md font-headline-md text-primary mb-xs">Caring Faculty</h4>
+<p class="text-body-md text-on-surface-variant">Dedicated, experienced teachers who treat every student with personalized attention.</p>
+</div>
+</div>
+</section>
+<!-- Notice Board vs Testimonial -->
+<section class="py-xl bg-surface-container-high border-y-2 border-primary">
+<div class="max-w-container-max mx-auto px-base lg:px-lg grid lg:grid-cols-2 gap-lg items-start">
+<!-- Notice Board Widget -->
+<div class="bg-white p-lg wood-frame relative overflow-hidden">
+<div class="absolute top-0 right-0 w-16 h-16 bg-secondary opacity-10 -rotate-12 translate-x-4 -translate-y-4"></div>
+<h3 class="text-headline-md font-headline-md text-primary mb-lg flex items-center gap-sm">
+<span class="material-symbols-outlined" data-icon="campaign">campaign</span>
+                    Latest Notices
+                </h3>
+<div class="space-y-md">
+<div class="border-b border-outline-variant pb-md flex gap-md group cursor-pointer">
+<div class="flex-shrink-0 w-16 h-16 bg-surface-container flex flex-col items-center justify-center border border-primary">
+<span class="text-headline-md font-headline-md text-primary leading-none">24</span>
+<span class="text-caption font-label-md uppercase">May</span>
+</div>
+<div>
+<h5 class="font-headline-md text-body-lg text-primary group-hover:text-secondary transition-colors">Admission Open for Academic Year 2081</h5>
+<p class="text-caption text-on-surface-variant">Forms available at school office between 10 AM - 4 PM.</p>
+</div>
+</div>
+<div class="border-b border-outline-variant pb-md flex gap-md group cursor-pointer">
+<div class="flex-shrink-0 w-16 h-16 bg-surface-container flex flex-col items-center justify-center border border-primary">
+<span class="text-headline-md font-headline-md text-primary leading-none">15</span>
+<span class="text-caption font-label-md uppercase">May</span>
+</div>
+<div>
+<h5 class="font-headline-md text-body-lg text-primary group-hover:text-secondary transition-colors">Annual Sports Day Results Announced</h5>
+<p class="text-caption text-on-surface-variant">Check the main board for individual and house standings.</p>
+</div>
+</div>
+<div class="flex gap-md group cursor-pointer">
+<div class="flex-shrink-0 w-16 h-16 bg-surface-container flex flex-col items-center justify-center border border-primary">
+<span class="text-headline-md font-headline-md text-primary leading-none">02</span>
+<span class="text-caption font-label-md uppercase">May</span>
+</div>
+<div>
+<h5 class="font-headline-md text-body-lg text-primary group-hover:text-secondary transition-colors">Parent-Teacher Meeting (Grades 1-5)</h5>
+<p class="text-caption text-on-surface-variant">Scheduled for this Saturday in the school auditorium.</p>
+</div>
+</div>
+</div>
+<button class="mt-lg text-secondary font-bold text-label-md flex items-center gap-xs hover:gap-md transition-all">
+                    View All Notices <span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+<!-- Testimonial Section -->
+<div class="space-y-lg pt-md">
+<div class="space-y-sm">
+<h2 class="text-headline-lg font-headline-lg text-primary">Voices of Laxmipur</h2>
+<p class="text-body-lg text-on-surface-variant">What our parents and alumni say about our institution.</p>
+</div>
+<div class="relative bg-primary p-lg text-on-primary wood-frame">
+<span class="material-symbols-outlined absolute top-4 right-4 opacity-20 text-4xl" data-icon="format_quote">format_quote</span>
+<p class="text-body-lg italic mb-lg">
+                        "Laxmipur is more than a school; it's a second home. The teachers' dedication towards my son's overall development, not just academics, is truly commendable. He has grown so much in confidence."
+                    </p>
+<div class="flex items-center gap-md">
+<div class="w-12 h-12 rounded-full border-2 border-secondary overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Portrait of a smiling Nepali mother in traditional attire, reflecting a sense of pride and contentment. The lighting is soft and natural, emphasizing the warmth of her expression. The background is a softly blurred view of a peaceful Kathmandu suburb." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAp5yRWDJfL9V9nqBRC8xAaYvGSARkb5G2x7ms4T9KjSWPKY5vXR9vG5drIJdk1oo2pNXPUqfO3ebXJ1PNPSRo6GobXdHLsWPCP1uM2JEVutI8XFofXC1cDCZhD0ZbTSCVbNGxkcK2o1ESDPZ5a5YLtEq8-zXuyc0Xrqw2-WfDBW3mElXxL2x1XVwPgtxYbwmt-R44CUKKtbRdOLYd7gPKIgziV8i0TgsMXvsrS3SgvZwu0cCFNPhRdBuTZXNUnsLmSN4ujEP7xAVEB"/>
+</div>
+<div>
+<p class="font-headline-md text-body-md text-secondary-fixed">Mrs. Sunita Shrestha</p>
+<p class="text-caption font-label-md text-on-primary-container/70">Parent of Grade 4 Student</p>
+</div>
+</div>
+</div>
+<div class="flex gap-md">
+<button class="p-sm border-2 border-primary text-primary hover:bg-primary hover:text-on-primary transition-all">
+<span class="material-symbols-outlined" data-icon="chevron_left">chevron_left</span>
+</button>
+<button class="p-sm border-2 border-primary text-primary hover:bg-primary hover:text-on-primary transition-all">
+<span class="material-symbols-outlined" data-icon="chevron_right">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer CTA -->
+<section class="bg-secondary-container py-xl text-center relative overflow-hidden">
+<div class="absolute inset-0 opacity-10 pointer-events-none">
+<div class="grid grid-cols-12 h-full w-full">
+<div class="border-r border-on-secondary-container"></div><div class="border-r border-on-secondary-container"></div><div class="border-r border-on-secondary-container"></div><div class="border-r border-on-secondary-container"></div><div class="border-r border-on-secondary-container"></div><div class="border-r border-on-secondary-container"></div><div class="border-r border-on-secondary-container"></div><div class="border-r border-on-secondary-container"></div><div class="border-r border-on-secondary-container"></div><div class="border-r border-on-secondary-container"></div><div class="border-r border-on-secondary-container"></div><div class="border-r border-on-secondary-container"></div>
+</div>
+</div>
+<div class="max-w-container-max mx-auto px-base lg:px-lg relative z-10">
+<h2 class="text-display-lg-mobile md:text-display-lg font-display-lg text-on-secondary-container mb-md">Begin Your Child's Journey With Us</h2>
+<p class="text-body-lg text-on-secondary-container/80 mb-lg max-w-2xl mx-auto">
+                Join a legacy of excellence that spans nearly 40 years. We are currently accepting applications for the new academic session.
+            </p>
+<div class="flex flex-col sm:flex-row justify-center gap-md">
+<button class="bg-primary text-on-primary px-lg py-md text-label-md font-label-md font-bold wood-frame hover:-translate-y-1 transition-transform">
+                    Apply Online Now
+                </button>
+<button class="bg-white text-primary px-lg py-md text-label-md font-label-md font-bold wood-frame hover:-translate-y-1 transition-transform">
+                    Download Prospectus
+                </button>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-primary dark:bg-primary-container border-t-4 border-secondary">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-lg px-base lg:px-lg py-xl max-w-container-max mx-auto">
+<div class="space-y-md">
+<div class="flex items-center gap-sm">
+<img alt="Laxmipur School Logo" class="h-10 w-10 brightness-200" src="data:image/png;base64,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"/>
+<span class="text-headline-md font-headline-md text-on-primary">Laxmipur ESS</span>
+</div>
+<p class="text-on-primary/80 text-body-md">
+                    Providing quality education in Tokha since 1985. Rooted in values, growing for the future.
+                </p>
+<div class="flex gap-md">
+<a class="text-on-primary hover:text-secondary-fixed transition-colors" href="#"><span class="material-symbols-outlined" data-icon="facebook">social_leaderboard</span></a>
+<a class="text-on-primary hover:text-secondary-fixed transition-colors" href="#"><span class="material-symbols-outlined" data-icon="mail">mail</span></a>
+<a class="text-on-primary hover:text-secondary-fixed transition-colors" href="#"><span class="material-symbols-outlined" data-icon="call">call</span></a>
+</div>
+</div>
+<div class="space-y-md">
+<h6 class="text-label-md font-label-md text-secondary-fixed uppercase tracking-widest">Quick Links</h6>
+<ul class="space-y-sm">
+<li><a class="text-on-primary/80 hover:text-secondary-fixed text-label-md font-label-md transition-colors duration-200" href="#">Home</a></li>
+<li><a class="text-on-primary/80 hover:text-secondary-fixed text-label-md font-label-md transition-colors duration-200" href="#">About Us</a></li>
+<li><a class="text-on-primary/80 hover:text-secondary-fixed text-label-md font-label-md transition-colors duration-200" href="#">Academics</a></li>
+<li><a class="text-on-primary/80 hover:text-secondary-fixed text-label-md font-label-md transition-colors duration-200" href="#">Student Life</a></li>
+</ul>
+</div>
+<div class="space-y-md">
+<h6 class="text-label-md font-label-md text-secondary-fixed uppercase tracking-widest">Admissions</h6>
+<ul class="space-y-sm">
+<li><a class="text-on-primary/80 hover:text-secondary-fixed text-label-md font-label-md transition-colors duration-200 underline" href="#">Apply Now</a></li>
+<li><a class="text-on-primary/80 hover:text-secondary-fixed text-label-md font-label-md transition-colors duration-200" href="#">Fee Structure</a></li>
+<li><a class="text-on-primary/80 hover:text-secondary-fixed text-label-md font-label-md transition-colors duration-200" href="#">Scholarships</a></li>
+<li><a class="text-on-primary/80 hover:text-secondary-fixed text-label-md font-label-md transition-colors duration-200" href="#">Admissions Policy</a></li>
+</ul>
+</div>
+<div class="space-y-md">
+<h6 class="text-label-md font-label-md text-secondary-fixed uppercase tracking-widest">Contact Us</h6>
+<address class="not-italic text-on-primary/80 text-body-md space-y-sm">
+<p class="flex items-start gap-sm">
+<span class="material-symbols-outlined" data-icon="location_on">location_on</span>
+                        Tokha-3, Chandeshowri,<br/>Kathmandu, Nepal
+                    </p>
+<p class="flex items-center gap-sm">
+<span class="material-symbols-outlined" data-icon="call">call</span>
+                        +977-1-438XXXX / 9841XXXXXX
+                    </p>
+<p class="flex items-center gap-sm">
+<span class="material-symbols-outlined" data-icon="mail">mail</span>
+                        info@laxmipur.edu.np
+                    </p>
+</address>
+</div>
+</div>
+<div class="border-t border-on-primary/10 py-md px-base text-center">
+<p class="text-on-primary/60 text-caption font-label-md">© 2024 Laxmipur English Secondary School. All rights reserved.</p>
+</div>
+</footer>
+<script>
+        // Micro-interactions for scrolling effects
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('shadow-md');
+            } else {
+                nav.classList.remove('shadow-md');
+            }
+        });
+
+        // Simple button interaction
+        document.querySelectorAll('button').forEach(btn => {
+            btn.addEventListener('mousedown', () => btn.classList.add('scale-95'));
+            btn.addEventListener('mouseup', () => btn.classList.remove('scale-95'));
+            btn.addEventListener('mouseleave', () => btn.classList.remove('scale-95'));
+        });
+    </script>
+</body></html>
